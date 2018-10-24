@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+</head>
+<body>
+
+    <div id="menu">
+
+        <div id="logo" onclick="changePage('main')">
+            <img src="assets/logo.png" />
+            <span>Tech 387</span>
+        </div>
+
+
+        <ul id="menuItemsBigScreen">
+            <a href="/index.html">
+                <li id="main" class="menuItems" onclick="changePage(this)">O nama</li>
+            </a>
+            <a href="/pages/aboutus.html">
+                <li id="aboutus" class="menuItems" onclick="changePage(this)">Misija i vizija</li>
+            </a>
+            <li id="team" class="menuItems" onclick="changePage(this)">Tim</li>
+            <li id="contact" class="menuItems" onclick="changePage(this)">Kontakt</li>
+            <li id="languages">
+
+                <div id="chooseLanguageStatement">
+                    <span id="hiddenText" class="menuItems">Change language</span>
+                    <span id="flags">
+                            <img id="english" onclick="checkLanguage(this)" src="assets/united-kingdom.svg" />
+                            <img id="bosnian" onclick="checkLanguage(this)" src="assets/bosnia-and-herzegovina.svg" />
+                        </span>
+                </div>
+
+            </li>
+        </ul>
+
+        <div id="menuIcon" onclick="toggleMenu()" style="
+                                         width: 24px;
+                                         height: 24px;
+                                         background-color: #fff;
+                                         -webkit-mask-image: url('assets/menu_one.svg');
+                                         -webkit-mask-size: 24px;">
+        </div>
+
+    </div>
+
+</body>
+</html>

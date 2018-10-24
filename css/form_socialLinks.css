@@ -1,0 +1,164 @@
+
+
+/* SECTION FOUR ABOUT */
+
+#sectionFourAbout {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#sectionFourAbout > div {
+    width: 50%;
+    background-color: #303030 !important;
+    padding: 20px 0;
+    outline: none;
+    border: none;
+}
+
+#sectionFourAbout  #ourSocialLinks > div {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 35px !important;
+    left: 10px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#sectionFourAbout .androidButton,  #sectionFourAbout  .iosButton, #sectionFourAbout .androidButton, #sectionFourAbout .iosButton {
+    width: 140px !important;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent !important;
+    box-sizing: border-box !important;
+}
+
+#sectionFourAbout .androidButton span,  #sectionFourAbout .iosButton span {
+    color: #fff !important;
+    opacity: 0.84;
+    display: inline-block;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+
+#sectionFourAbout .iosButton span {
+    padding-left: 15px !important;
+}
+
+
+#sectionFourAbout .androidButton > div,  #sectionFourAbout .iosButton > div {
+    position: relative;
+    top: 7px;
+}
+
+#sectionFourAbout .iosButton > div {
+    left: 5px;
+}
+
+
+
+
+
+#sectionFourAbout #formContainer {
+    background-color: #303030;
+    min-width: 300px;
+    width: 60%;
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+}
+
+
+#sectionFourAbout #formContainer > div {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+}
+
+
+#sectionFourAbout #formContainer > div * {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#sectionFourAbout #form > p:first-child {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#sectionFourAbout #form > p:nth-child(2) {
+    font-size: 14px;
+    padding: 0 5px;
+    color: #90A4AE;
+}
+
+
+#sectionFourAbout #form button {
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 1px;
+    padding: 10px 5px;
+    color: #111;
+    min-width: 100px;
+    max-width: 150px;
+    font-family: 'sans-serif', 'Roboto';
+    background-color: #00E676;
+    box-shadow: 1px 2px 1px rgba(150,150,150, 0.6);
+    cursor: pointer;
+}
+
+
+#sectionFourAbout #form button:hover {
+    background-color: #00C853;
+}
+
+
+#sectionFourAbout #form button:active {
+    box-shadow: 1px -1px 1px rgba(150,150,150, 0.6);
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 850px) {
+
+    #sectionFourAbout {
+        flex-direction: column-reverse;
+    }
+
+    #sectionFourAbout > div {
+        width: 100%;
+        height: 120px;
+    }
+
+
+    #sectionFourAbout #formContainer {
+        background-color: #333;
+        min-width: 300px;
+        width: 50%;
+        position: relative;
+        top: 10px;
+        margin: 0 auto;
+    }
+
+    #sectionFourAbout  #ourSocialLinks > div {
+        position: relative;
+        top: 35px !important;
+    }
+
+}

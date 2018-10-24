@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <!-- For different viewports -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <meta charset="UTF-8">
+    <meta name="description" content="Tech387 was founded with an ambition to develop the most demanding and ambitious software projects of the 21st century. The members of our team are young, creative and ambitious professionals whose motivated work approach inspires innovation and change.">
+    <meta name="keywords" content="it, tech387, application, app, php, android, android application, ios, ios application, website design, create application, computer programming, computer coding, java, javascript, software,
+                                    html, css, mysql, jquery, polymer, graphic design, iphone, iphone application, database, advertisement, marketing">
+
+
+    <title>Contact</title>
+
+    <!-- Material Design Lite libraries -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Tab icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/logo_tab.png" />
+
+    <!-- Font Roboto and Roboto Mono -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/ripple.css" />
+    <link rel="stylesheet" href="../css/shared_all.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/section_two.css" />
+    <link rel="stylesheet" href="../css/big_form.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/floating_labels.css" />
+    <link rel="stylesheet" href="../css/fonts_color_sizes.css" />
+    <!-- To overwrite default values -->
+    <style>
+        #menu {
+            background-color: #1c1c1c;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="../js/languages.js"></script>
+    <script src="../js/main.js"></script>
+
+</head>
+
+<body onload="callMainFunctions()">
+
+<div id="menu">
+
+    <a href="../index.html">
+        <div id="logo">
+            <img src="../assets/logo.png" />
+            <span>Tech 387</span>
+        </div>
+    </a>
+
+
+    <ul id="menuItemsBigScreen">
+        <a href="../index.html">
+            <li id="main" class="menuItems data">About us</li>
+        </a>
+        <a href="aboutus.html">
+            <li id="aboutus" class="menuItems data">Mission and vision</li>
+        </a>
+        <a href="team.html">
+            <li id="team" class="menuItems data">Team</li>
+        </a>
+
+        <a href="">
+            <li id="contact" class="menuItems data">Contact us</li>
+        </a>
+
+
+        <li id="languages">
+
+            <div id="chooseLanguageStatement">
+                <span id="hiddenText" class="menuItems">Change language</span>
+                <span id="flags">
+                            <img id="english" onclick="checkLanguage(this)" src="../assets/united-kingdom.svg" />
+                            <img id="bosnian" onclick="checkLanguage(this)" src="../assets/bosnia-and-herzegovina.svg" />
+                        </span>
+            </div>
+
+        </li>
+    </ul>
+
+    <div id="menuIcon" onclick="toggleMenu()" style="
+                                         width: 24px;
+                                         height: 24px;
+                                         background-color: #fff;
+                                         -webkit-mask-image: url('../assets/menu_one.svg');
+                                         -webkit-mask-size: 24px;">
+    </div>
+
+</div>
+
+<div id="container" onclick="closeMenu(this)">
+    <div id="contactContainer">
+
+        <!-- SECTION TWO -->
+        <div id="contactAboutUs">
+
+            <div class="section" id="sectionTwo">
+                <div id="sectionTwoText">
+                    <p class="heading data textOneLight" id="secondHeading"> About us </p>
+                    <p class="subheading data textTwoLight" id="secondSubheading">
+                        Our core values are ambition, unity and flexibility.
+                    </p>
+                    <p class="text data textThreeLight" id="secondText">
+                        Tech387 was founded with an ambition to develop the most demanding and ambitious software projects of the 21st century.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SECTION FOUR ABOUT -->
+            <div class="section" id="sectionFourA">
+                <div id="leftContainer">
+
+
+                    <div id="ourSocialLinks">
+
+                        <div>
+
+                            <a href="https://www.facebook.com/tech387/" target="_blank">
+                                <button class="mdl-button mdl-js-button androidButton ripple">
+                                    <div style="
+                                            width: 18px;
+                                            height: 18px;
+                                            background-color: 	#385998;
+                                             -webkit-mask-image: url('../assets/facebook.svg');
+                                             -webkit-mask-size: 18px;">
+                                    </div>
+                                    <span id="facebook">FACEBOOK</span>
+                                </button>
+                            </a>
+
+                            <a id="medium" href="https://medium.com/@TECH387" target="_blank">
+                                <button class="mdl-button mdl-js-button androidButton ripple">
+                                    <div style="
+                                            width: 18px;
+                                            height: 18px;
+                                            background-color: 	#1c1c1c;
+                                             -webkit-mask-image: url('../assets/medium.svg');
+                                             -webkit-mask-size: 18px;">
+                                    </div>
+                                    <span>MEDIUM</span>
+                                </button>
+                            </a>
+
+                        </div>
+
+                        <div>
+
+                            <a href="https://www.linkedin.com/company/tech-387" target="_blank">
+                                <button class="mdl-button mdl-js-button androidButton ripple">
+                                    <div style="
+                                            width: 18px;
+                                            height: 18px;
+                                            background-color: 	#1c1c1c;
+                                             -webkit-mask-image: url('../assets/instagram.svg');
+                                             -webkit-mask-size: 18px;">
+                                    </div>
+                                    <span>INSTAGRAM</span>
+                                </button>
+                            </a>
+
+                            <a href="https://www.linkedin.com/company/tech-387" target="_blank">
+                                <button class="mdl-button mdl-js-button androidButton ripple">
+                                    <div style="
+                                            width: 18px;
+                                            height: 18px;
+                                            background-color: 	#487584;
+                                             -webkit-mask-image: url('../assets/linkedin.svg');
+                                             -webkit-mask-size: 18px;">
+                                    </div>
+                                    <span id="linkedin">LINKED IN</span>
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- SECTION SEVEN C -->
+        <div class="section" id="sectionSevenC">
+            <div></div>
+            <div id="formContainer">
+                <div id="form">
+
+                    <p class="data textTwoLight primary"> Let’s start our work relationship </p>
+                    <p class="data textThreeLight primary"> Leave A Message </p>
+
+                    <br/>
+                    <form class="primary">
+                        <input id="fullname" type="text" required>
+                        <label class="data">Full Name</label>
+                    </form>
+                    <form class="primary">
+                        <input id="email" type="text" required>
+                        <label class="data">Email</label>
+                    </form>
+                    <form class="primary">
+                        <input id="subject" type="text" required>
+                        <label class="data">Subject</label>
+                    </form>
+
+                    <form class="primary">
+                        <textarea id="message" type="text" required></textarea>
+                        <label class="data">Message</label>
+                    </form>
+
+                    <div>
+                        <button id="contactButton" class="data buttonOne primary ripple" onclick="sendContactData()">Contact us</button>
+                    </div>
+
+                    <div id="second" class="secundary">
+                        <p class="data"> Data successfully sended </p>
+                        <!--<p id="backButton" class="data textFiveLight" onclick="returnToTheForm()"> Return </p>-->
+                        <button id="backButton" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored riple data" onclick="returnToTheForm()">
+                            Return
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="toast"></div>
+
+    <script>
+        /**
+         * Opening social media links
+         * @param event
+         */
+        function openLink(event){
+            switch(event.id){
+                case 'facebook': window.open('https://www.facebook.com/tech387/','_blank'); break;
+                case 'medium': window.open('https://medium.com/@TECH387','_blank'); break;
+                case 'instagram': window.open('https://www.linkedin.com/company/tech-387','_blank'); break;
+                case 'linkedin': window.open('https://www.linkedin.com/company/tech-387','_blank');
+            }
+        }
+    </script>
+
+</body>
+</html>
